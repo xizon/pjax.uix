@@ -17,7 +17,7 @@ Based on https://github.com/defunkt/jquery-pjax
 ``` js
 	$(function(){
 		
-			$( document ).pjax( 'a[target-pjax], [target-pjax] a', '#main', {
+			$( document ).pjax( 'a[data-pjax], [data-pjax] a', '#main', {
 				showHTMLdelay: 0,
 				startEvent: function( button ){
 					//alert( button.attr( 'href' ) );
