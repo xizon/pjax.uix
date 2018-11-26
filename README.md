@@ -15,22 +15,20 @@ Based on https://github.com/defunkt/jquery-pjax
 ### Last Usage: 
 
 ``` js
-	$(function(){
-		
-			$( document ).pjax( 'a[data-pjax], [data-pjax] a', '#main', {
-				showHTMLdelay: 0,
-				startEvent: function( button ){
-					//alert( button.attr( 'href' ) );
-					
-				},
-				endEvent: function( button ){
-					//
-					
-				}
-			});
-			
-			//Remove pjax link
-			$( 'a[remove-pjax]' ).attr( 'usepjax', 1 );
-			
+
+        //Trigger
+	$( document ).pjax( 'a[data-pjax], [data-pjax] a', '#main', {
+		showHTMLdelay: 0,
+		startEvent: function( button ){
+			//alert( button.attr( 'href' ) );
+
+		},
+		endEvent: function( button ){
+			//
+
+		}
 	});
+
+	//Remove pjax link
+	$( 'a[remove-pjax]' ).attr( 'usepjax', 1 );
 ```
