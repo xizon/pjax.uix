@@ -16,19 +16,19 @@ Based on https://github.com/defunkt/jquery-pjax
 
 ``` js
 
-        //Trigger
-	$( document ).pjax( 'a[data-pjax], [data-pjax] a', '#main', {
-		showHTMLdelay: 0,
-		startEvent: function( button ){
-			//alert( button.attr( 'href' ) );
+//Trigger
+$( document ).pjax( 'a[data-pjax], [data-pjax] a', '#main', {
+	showHTMLdelay: 0,
+	startEvent: function( button ){
+		//alert( button.attr( 'href' ) );
 
-		},
-		endEvent: function( button ){
-			//
+	},
+	endEvent: function( button ){
+		//
 
-		}
-	});
+	}
+});
 
-	//Remove pjax link
-	$( 'a[data-remove-pjax]' ).attr( 'usepjax', 1 );
+//Remove pjax link
+$( 'a[data-remove-pjax]' ).attr( 'usepjax', 1 );
 ```
