@@ -30,5 +30,5 @@ Based on https://github.com/defunkt/jquery-pjax
 	});
 
 	//Remove pjax link
-	$( 'a[remove-pjax]' ).attr( 'usepjax', 1 );
+	$( 'a[data-remove-pjax]' ).attr( 'usepjax', 1 );
 ```
