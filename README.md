@@ -14,7 +14,7 @@ Based on https://github.com/defunkt/jquery-pjax
  *
  * Last Usage: 
  *
-`
+`js
 	$(function(){
 		
 			$( document ).pjax( 'a[target-pjax], [target-pjax] a', '#main', {
