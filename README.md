@@ -4,17 +4,17 @@ A modified version of extension for jQuery Pjax.
 Based on https://github.com/defunkt/jquery-pjax
 
 
- * Version added:
- *
- *    - Add a option to increase stream delay.
- *    - Add a callback or a collection of callbacks to a callback list. 
- *    - Increase a function of ui show to load an file.
- *    - Fires asynchronously with each click event
- *
- *
- * Last Usage: 
- *
-`js
+ Version added:
+
+- Add a option to increase stream delay.
+- Add a callback or a collection of callbacks to a callback list. 
+- Increase a function of ui show to load an file.
+- Fires asynchronously with each click event
+
+
+### Last Usage: 
+
+``` js
 	$(function(){
 		
 			$( document ).pjax( 'a[target-pjax], [target-pjax] a', '#main', {
@@ -33,4 +33,4 @@ Based on https://github.com/defunkt/jquery-pjax
 			$( 'a[remove-pjax]' ).attr( 'usepjax', 1 );
 			
 	});
-`
+```
